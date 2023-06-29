@@ -2,7 +2,11 @@
 
 # HttpxFinder
 
-Automation of httpx commands to find vulnerabilities
+Automation of httpx commands to find vulnerabilities.
+
+Requirements:
+Install httpx.
+https://github.com/projectdiscovery/httpx.git
 
 How to install:
  Git clone https://github.com/Nelux1/HttpxFinder
@@ -15,5 +19,6 @@ How to use:
 
 you can disable the commands you want by adding "#" before starting the line.
 
-  
+Thanks:
+@projectdicovery
  
