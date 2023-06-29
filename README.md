@@ -4,8 +4,16 @@
 
 Automation of httpx commands to find vulnerabilities
 
-Ejecution:
+How to install:
+ Git clone https://github.com/Nelux1/HttpxFinder
+ cd HttpxFinder
+ Chmod +777 httpxfinder.sh
+ sudo cp httpxfinder.sh /usr/bin
 
- ./httpxfinder list.txt
- 
+How to use:
+ ./httpxfinder.sh list.txt
+
+you can disable the commands you want by adding "#" before starting the line.
+
+  
  
