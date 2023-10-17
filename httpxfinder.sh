@@ -63,5 +63,4 @@ run_httpx_with_progress \
     "httpx -l httpxfinder/lives.txt -silent -t 50 -ports 80,443,8080,8443 -path '/?xss=\"</script><script>alert(\"XSS\")</script>\"' -mr '<script>alert(\"XSS\")</script>' >> httpxfinder/xss.txt" \
     "httpx -l httpxfinder/lives.txt -silent -t 50 -path /phpinfo.php --status-code --content-length -title -mc 200  >> httpxfinder/phpinfo.txt" \
     "httpx -l httpxfinder/lives.txt -silent -t 50 -path /swagger-api --status-code --content-length -title -mc 200 >> httpxfinder/swagger.txt" \
-    "httpx -l httpxfinder/lives.txt -silent -t 50 -path '/httpxfinder/sql.txt' -title -status-code --content-length -mc 200 >> httpxfinder/sql_olvidado.txt" \
-    "httpx -l httpxfinder/lives.tx  -silent -t 50 -path '/httpxfinder/403_url_payloads.txt' -title -status-code --content-length -mc 200 >> httpxfinder/403bypass.txt"
+
