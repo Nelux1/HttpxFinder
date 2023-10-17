@@ -17,7 +17,12 @@ How to install:
 How to use:
  ./httpxfinder.sh list.txt
 
-you can disable the commands you want by adding "#" before starting the line.
+you can disable or enable the commands you want by adding "#" before starting the line.
+
+
+To make use of the forgotten SQL commands, disable the "#" in the executable and modify the directory to point to where the "sql.txt" file is located.
+
+
 
 Thanks:
 @projectdicovery
