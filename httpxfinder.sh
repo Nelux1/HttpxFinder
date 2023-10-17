@@ -46,7 +46,7 @@ banner="
                            888
                            888
                            888
-"
+v 2.0"
 
 echo -e "${GREEN}$banner${ENDCOLOR}"
 
