@@ -20,7 +20,7 @@ How to use:
 you can disable or enable the commands you want by adding "#" before starting the line.
 
 
-To make use of the forgotten SQL commands, disable the "#" in the executable and modify the directory to point to where the "sql.txt" file is located.
+To make use of the 403 or forgotten SQL commands, disable the "#" in the executable and modify the directory to point to where the "sql.txt" and/or "403_url_payloads" file is located.
 
 
 
